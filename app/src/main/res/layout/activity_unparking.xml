@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/unparkingLayout"
+    android:windowSoftInputMode="adjustResize"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/unparkingCarNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your car number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="unparkTheCar"
+        android:text="SEND" />
+
+</LinearLayout>
